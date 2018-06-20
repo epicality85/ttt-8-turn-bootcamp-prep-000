@@ -39,8 +39,6 @@ def turn(board_arr)
   while valid_move?(board_arr, user_input)
     move(board_arr, user_input)
     display_board(board_arr)
-  else
-    puts "invalid"
   end
   
 end
