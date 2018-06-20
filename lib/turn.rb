@@ -22,6 +22,7 @@ def valid_move?(board_arr, index)
       return true
     end
   end
+  puts "invalid"
   return false
 end
 
