@@ -42,9 +42,4 @@ def turn(board_arr)
     puts "invalid"
     puts "Please enter 1-9:"
   end
-  
-  
-  
-  
-  
 end
