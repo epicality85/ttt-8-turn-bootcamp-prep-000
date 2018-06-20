@@ -40,5 +40,6 @@ def turn(board_arr)
     display_board(board_arr)
   else
     puts "Please enter 1-9:"
+    user_input = input_to_index(gets.strip())
   end
 end
