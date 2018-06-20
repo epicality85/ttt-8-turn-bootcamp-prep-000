@@ -39,7 +39,7 @@ def turn(board_arr)
     move(board_arr, user_input)
     display_board(board_arr)
   else
-    puts "Please enter 1-9:"
-    user_input = input_to_index(gets.strip())
+    puts "invalid"
+    turn(board_arr)
   end
 end
